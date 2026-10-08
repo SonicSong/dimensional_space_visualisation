@@ -3,6 +3,7 @@ use sdl2::keyboard::Keycode;
 use glow::*;
 use std::rc::Rc;
 
+// Part of the code responsbile for main rendering of stuff
 pub fn sdl_visual() {
     // Init SDL2
     let sdl = sdl2::init().unwrap();
